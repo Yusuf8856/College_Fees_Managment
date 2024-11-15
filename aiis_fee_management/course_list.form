@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="207" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" pref="41" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="ff" red="99" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="About BCA Course"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" pref="689" max="32767" attributes="0"/>
+                      <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" alignment="0" pref="689" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="400" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="391" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="lbl_bca">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="ABOUT BCA COURSE &#xa;Title of the Course: BCA &#xa;&#x2013; The course shall be called Bachelor of Computer Applications  In the 4 year (8 semesters) BCA course, there will be six papers&#xa; in the subject of Computer Application (Theory and Practical) in the first five semesters and the last is devoted to project work.&#xa;Each of the six papers will carry 100 marks. Duration of the examination for each paper will be 3 hours. In each paper, the&#xa;minimum marks for pass will be as per university regulations governing under-graduate course (semester scheme). &#xa;The syllabus, the scheme of instruction and examination will be as in what follows.  &#xa;Duration of the Course---&#xa;BCA-The course of study shall be 8 semesters, each semester from 1 to 8 spanning for four months and 8th semester over a period of&#xa;6 months. &#xa;Eligibility for Admission---&#xa;BCA &#x2013; A candidate with minimum 50% in PUC 2nd year or XII from CBSE/ICSE Board.&#xa;Attendance---&#xa;A candidate shall be considered to have successfully undergone the prescribed course of study if the candidate has&#xa;attended at least 75% of the classes in each subject (Theory/lab)&#xa;Scheme of Study---&#xa;The course is of six semesters I to V are for&#xa;course work and semester VI is for Dissertation/Project work the period of project work is normally of six months duration.&#xa;The project can be carried out either in the institution or at an Industry/Research organization approved by the head of the &#xa;department will supervise and guide the project. &#xa;&#xa; Documents Required for Admission--&#xa;                                                                  &#x9; Non Karnataka--&#xa;&#x9;&#x9;&#x9;1.SSLC Marks Sheet 2 PUC or 10+2 (Internet Copy attested by Principal) &#xa;&#x9;&#x9;&#x9;2.Transfer Certificate 6 Passport Size Photos Migration Certificate&#xa;Karnataka&#xa;1.SSLC Marks Sheet 2 PUC or 10+2 (Internet Copy attested by Principal) &#xa;2.Transfer certificate 6 Passport Size Photos&#xa;&#xa;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="lbl_mca">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Title of the Course---&#xa;M.Sc &#x2013; The course shall be called Masters in Computer Science.&#xa;&#xa;In the 2 year (4 semesters) M.Sc course, there will be five papers in the subject of Computer Science (Theory and Practical) in the first three semesters and the last semester is devoted to Project work. Each of the papers will carry 70 marks. Duration of the examination for each paper will be 3 hours. In each paper, the minimum marks for pass will be as per university regulations governing post-graduate course (semester scheme). The syllabus, the scheme of instruction and examination will be as in what follows&#xa;&#xa;Duration of the Course Course&#xa;M.Sc-The course of study shall be 4 semesters, each semester from 1 to 3 spanning for four months and 4th semester over a period of 6 months.&#xa;&#xa;Eligibility for Admission&#xa;&#xa;M.Sc &#x2013; A candidate with any degree of a minimum of 3 years duration of Bangalore City University or of any other University equivalent there to with a minimum of 50% of marks in the aggregate of all subject including languages, if any, provided further, that the candidate has studied Mathematics or Computer Science at PUC level or equivalent HSC (XII standard) or at degree is eligible for admission norms. Further, the minimum qualification shall be as per Government norms in the case of common entrance test.&#xa;&#xa;Attendance&#xa;A candidate shall be considered to have successfully undergone the prescribed course of study if the candidate has attended at least 75% of the classes in each subject (Theory/lab)&#xa;&#xa; &#xa;&#xa;Scheme of Study&#xa;The course is of four  semesters I to III are for course work and semester IV is for Dissertation/Project work the period of project work is normally of six months duration. The project can be carried out either in the institution or at an Industry/Research organization approved by the head of the department will supervise and guide the project.&#xa;&#xa;Documents Required for Admission&#xa;Karnataka---&#xa;1.SSLC Marks Sheet&#xa;2.PUC or 10+2 (Internet Copy attested by Principal)&#xa;3. 3-Years Degree Marks sheets&#xa;4.Transfer certificate&#xa;5.Passport Size Photos.&#xa;Non Karnataka---&#xa;1.SSLC Marks Sheet&#xa;2.PUC or 10+2 (Internet Copy attested by Principal)&#xa;3.Years Degree Marks sheets&#xa;Transfer Certificate&#xa;6 Passport Size Photos&#xa;Migration Certificate"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="ff" red="99" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="MCA"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="220" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" pref="41" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="ff" red="99" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="About MCA Course"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
