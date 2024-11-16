@@ -1,0 +1,7 @@
+use College;
+CREATE TABLE `course` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `CNAME` varchar(200) NOT NULL,
+  `COST` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
